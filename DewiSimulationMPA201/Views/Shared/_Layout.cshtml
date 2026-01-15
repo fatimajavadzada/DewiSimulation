@@ -74,6 +74,20 @@
                         </ul>
                     </li>
                     <li><a href="#contact">Contact</a></li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a href="#">@User.Identity.Name</a></li>
+                        if (User.IsInRole("Admin"))
+                        {
+                            <li><a asp-action="Index" asp-controller="Dashboard" asp-area="Admin">Admin Panel</a></li>
+                        }
+                        <li><a asp-action="Logout" asp-controller="Account">Logout</a></li>
+                    }
+                    else
+                    {
+                        <li><a asp-action="Login" asp-controller="Account">Login</a></li>
+                        <li><a asp-action="Register" asp-controller="Account">Register</a></li>
+                    }
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>

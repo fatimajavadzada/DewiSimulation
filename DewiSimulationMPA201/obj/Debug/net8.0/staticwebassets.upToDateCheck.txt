@@ -1032,3 +1032,4 @@ wwwroot\admin\assets\vendors\ti-icons\fonts\themify.woff
 wwwroot\admin\assets\vendors\typeahead.js\typeahead.bundle.min.js
 wwwroot\assets\img\1e14e652-dda3-474a-809c-c91ec9061514Screenshot 2023-12-09 124556.png
 wwwroot\assets\img\b42cd6a5-b95f-4623-b517-1a9464c67b1dScreenshot 2023-07-27 224225.png
+wwwroot\assets\img\63056ee8-cc5b-4ef5-acea-181483d79206Screenshot 2025-12-09 205413.png

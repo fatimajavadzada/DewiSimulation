@@ -258,3 +258,4 @@ C:\Users\ASUS\Desktop\Simulations\Dewi\DewiSimulationMPA201\DewiSimulationMPA201
 C:\Users\ASUS\Desktop\Simulations\Dewi\DewiSimulationMPA201\DewiSimulationMPA201\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\ASUS\Desktop\Simulations\Dewi\DewiSimulationMPA201\DewiSimulationMPA201\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\ASUS\Desktop\Simulations\Dewi\DewiSimulationMPA201\DewiSimulationMPA201\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ASUS\Desktop\Simulations\Dewi\DewiSimulationMPA201\DewiSimulationMPA201\obj\Debug\net8.0\DewiSimulationMPA201.sourcelink.json

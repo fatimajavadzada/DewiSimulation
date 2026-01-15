@@ -1,4 +1,6 @@
 using DewiSimulationMPA201.Contexts;
+using DewiSimulationMPA201.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace DewiSimulationMPA201
@@ -15,6 +17,11 @@ namespace DewiSimulationMPA201
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
             });
+
+            builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+            {
+
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
             var app = builder.Build();
 
